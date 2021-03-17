@@ -14,7 +14,7 @@
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Individual Loan Applicantion</title>
+    <title>Individual Credit Card Applicantion</title>
      <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
@@ -115,7 +115,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="/">Home</a><i class="fa fa-angle-double-right"></i><span>Predict Individual Loan Approval</span>
+                        <a href="/">Home</a><i class="fa fa-angle-double-right"></i><span>Predict Individual Credit Card Approval</span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -126,7 +126,7 @@
 
     <!-- Terms Content -->
     <div id="Predict" class="ex-basic-2">
-		<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Please Fill in the details to get your chances of Loan Approval.</h4>
+		<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Please Fill in the details to get your chances of Credit Card Approval.</h4>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -149,8 +149,8 @@
 									<div class="help-block with-errors"></div>
 								</div>
 								<div class="form-group">
-									<input name="loan_amnt" class="form-control-input" type="number" min="500" max="40000" id="loan_amnt" required>
-									<label class="label-control" for="loan_amnt">Loan Amount ($500 to $40,000):</label>
+									<input name="Credit Card_amnt" class="form-control-input" type="number" min="500" max="40000" id="Credit Card_amnt" required>
+									<label class="label-control" for="Credit Card_amnt">Credit Card Amount ($500 to $40,000):</label>
 									<div class="help-block with-errors"></div>
 								</div>
 								<div class="form-group">
@@ -235,7 +235,7 @@
 						<br><b>{{ variable }}</b> : {{ value }}
 						{% endfor %}
 						<br>
-						<br> Loan Decision:
+						<br> Credit Card Decision:
 						<p style="font-size:20px">{{ result }}</p>
 						{% endif %}
 				</div>
@@ -327,7 +327,7 @@
                     <!-- Tab -->
                     <div class="tab-pane fade show active" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
                         <h4>XGBoost Feature Weights</h4>
-                        <p>The following graph gives the feature importance to predict the Loan Defaults.</p>
+                        <p>The following graph gives the feature importance to predict the Credit Card Defaults.</p>
                         
                         <!-- Progress Bars -->
                          <div class="col-lg-5 col-xl-6">
